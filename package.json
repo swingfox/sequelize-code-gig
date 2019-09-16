@@ -1,0 +1,31 @@
+{
+  "name": "sequelize-code-gig",
+  "version": "1.0.0",
+  "description": "Simple job find app for coders",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swingfox/sequelize-code-gig.git"
+  },
+  "author": "David Ramirez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swingfox/sequelize-code-gig/issues"
+  },
+  "homepage": "https://github.com/swingfox/sequelize-code-gig#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.18.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
