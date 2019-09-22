@@ -10,17 +10,17 @@
         <form action="/gigs/add" method="POST">
             <div class="input-group">
                 <label for="title">Gig Title</label>
-                <input type="text" class="input-box" id="title" placeholder="eg. Small Wordpress website, React developer"
+                <input type="text" name="title" class="input-box" id="title" placeholder="eg. Small Wordpress website, React developer"
                 maxlength="100" value="{{title}}">
             </div>
             <div class="input-group">
                 <label for="technologies">Technologies Needed</label>
-                <input type="text" class="input-box" placeholder="eg. javascript, react, PHP"
+                <input type="text"  name="technologies" class="input-box" placeholder="eg. javascript, react, PHP"
                 maxlength="100" value="{{technologies}}">
             </div>
             <div class="input-group">
                 <label for="budget">Budget (Leave blank for unknown)</label>
-                <input type="text" class="input-box" id="budget" placeholder="eg. 500, 5000, 10000" value="{{budget}}">
+                <input type="text" name="budget" class="input-box" id="budget" placeholder="eg. 500, 5000, 10000" value="{{budget}}">
             </div>
             <div class="input-group">
                 <label for="description">Gig Description</label>
